@@ -4,15 +4,12 @@ import { UserContext } from "../Context/UserContext"
 
 const UserProfile = () => {
     const {users , obj , setObj} = useContext(UserContext)
-    
 
     const handleChange = (e) => {
        const filtername = users.filter(user => user.name === e.target.value)
        setObj(filtername)
     }
      
-   
-
     return(
         <div>
            <h2>UserProfile</h2>
