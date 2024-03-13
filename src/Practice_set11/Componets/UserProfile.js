@@ -3,7 +3,7 @@ import { UserContext } from "../Context/UserContext"
 
 
 const UserProfile = () => {
-    const {users , myValue , setMyValue , name , email , role , setName , obj , setObj} = useContext(UserContext)
+    const {users , obj , setObj} = useContext(UserContext)
     
 
     const handleChange = (e) => {
