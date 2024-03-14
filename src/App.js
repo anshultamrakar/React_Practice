@@ -1,12 +1,27 @@
 import UserProvider from "./Practice_set11/Context/UserContext"
+import LanguageProvider from "./Practice_set11/Context/LanguageContext"
+import Translate from "./Practice_set11/Componets/Translate";
 import UserProfile  from "./Practice_set11/Componets/UserProfile"
+import ThemeProvider from "./Practice_set11/Context/ThemeContext ";
+import ThemeSwitcher from "./Practice_set11/Componets/ThemeSwitcher";
 
 function App() {
   return (
     <div className="App">
-      <UserProvider>
+      {/* Question 1 */}
+      {/* <UserProvider>
         <UserProfile/>
-      </UserProvider>
+      </UserProvider> */}
+      {/* Question 2  */} 
+
+       <LanguageProvider>
+        <Translate/>
+      </LanguageProvider>
+
+      {/* Ques3 */}
+      {/* <ThemeProvider>
+        <ThemeSwitcher/>
+      </ThemeProvider> */}
     </div>
   );
 }
