@@ -4,6 +4,8 @@ import Translate from "./Practice_set11/Componets/Translate";
 import UserProfile  from "./Practice_set11/Componets/UserProfile"
 import ThemeProvider from "./Practice_set11/Context/ThemeContext ";
 import ThemeSwitcher from "./Practice_set11/Componets/ThemeSwitcher";
+import CartProvider from "./Practice_set11/Context/CartTotalContext";
+import CartSummary from "./Practice_set11/Componets/CartSummary";
 
 function App() {
   return (
@@ -14,14 +16,23 @@ function App() {
       </UserProvider> */}
       {/* Question 2  */} 
 
-       <LanguageProvider>
+       {/* <LanguageProvider>
         <Translate/>
-      </LanguageProvider>
+      </LanguageProvider> */}
 
       {/* Ques3 */}
       {/* <ThemeProvider>
         <ThemeSwitcher/>
       </ThemeProvider> */}
+     {/* Ques3 */}
+
+      {/* Ques 4 */}
+      
+        <CartProvider>
+          <CartSummary/>
+        </CartProvider>
+
+      {/* Ques 4 */}
     </div>
   );
 }
