@@ -8,6 +8,7 @@ import CartProvider from "./Practice_set11/Context/CartTotalContext";
 import CartSummary from "./Practice_set11/Componets/CartSummary";
 import Tab from "./Practice_set4/Tab";
 import Welcome from "./Practice_set4/Welcome";
+import Basket from "./Practice_set4/Basket";
 
 function App() {
   return (
@@ -40,7 +41,8 @@ function App() {
 
       {/* Set 4 start */}
             {/* <Tab/> */}
-            <Welcome/>
+            {/* <Welcome/> */}
+            <Basket/>
       {/* Set 4 start */}
     </div>
   );
