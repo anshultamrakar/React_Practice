@@ -6,6 +6,8 @@ import ThemeProvider from "./Practice_set11/Context/ThemeContext ";
 import ThemeSwitcher from "./Practice_set11/Componets/ThemeSwitcher";
 import CartProvider from "./Practice_set11/Context/CartTotalContext";
 import CartSummary from "./Practice_set11/Componets/CartSummary";
+import Tab from "./Practice_set4/Tab";
+import Welcome from "./Practice_set4/Welcome";
 
 function App() {
   return (
@@ -16,23 +18,30 @@ function App() {
       </UserProvider> */}
       {/* Question 2  */} 
 
-       {/* <LanguageProvider>
+       {/*<LanguageProvider>
         <Translate/>
       </LanguageProvider> */}
 
       {/* Ques3 */}
       {/* <ThemeProvider>
         <ThemeSwitcher/>
-      </ThemeProvider> */}
+        </ThemeProvider> */}
      {/* Ques3 */}
 
       {/* Ques 4 */}
       
-        <CartProvider>
+        {/* <CartProvider>
           <CartSummary/>
-        </CartProvider>
+        </CartProvider> */}
 
       {/* Ques 4 */}
+
+
+
+      {/* Set 4 start */}
+            {/* <Tab/> */}
+            <Welcome/>
+      {/* Set 4 start */}
     </div>
   );
 }
