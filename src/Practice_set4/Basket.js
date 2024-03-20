@@ -36,7 +36,7 @@ const Basket = () => {
             </div>
             <div>
               {listItems.map(item => (
-                <ul key = {item.id}>
+                <ul key = {item.id} style = {{color : item.category === "Fruit" ? "orange" : "green" }}>
                     <li>{item.name}</li>
                 </ul>
               ))}

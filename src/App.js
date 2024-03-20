@@ -9,6 +9,16 @@ import CartSummary from "./Practice_set11/Componets/CartSummary";
 import Tab from "./Practice_set4/Tab";
 import Welcome from "./Practice_set4/Welcome";
 import Basket from "./Practice_set4/Basket";
+import Todo from "./Practice_set4/Todo";
+import TodoItems from "./Practice_set4/TodoItems";
+
+
+const todoItems = [
+  {id: 1, task: "Writing 1-page poem", isDone: true},
+  {id: 2, task: "Gym", isDone: false},
+  {id: 3, task: "Shopping", isDone: false},
+  {id: 4, task: "Standup call", isDone: true},
+]
 
 function App() {
   return (
@@ -42,7 +52,9 @@ function App() {
       {/* Set 4 start */}
             {/* <Tab/> */}
             {/* <Welcome/> */}
-            <Basket/>
+            {/* <Basket/> */}
+            {/* <Todo todoItems = {todoItems}/> */}
+            <TodoItems todoItems = {todoItems}/>
       {/* Set 4 start */}
     </div>
   );
