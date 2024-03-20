@@ -11,13 +11,14 @@ import Welcome from "./Practice_set4/Welcome";
 import Basket from "./Practice_set4/Basket";
 import Todo from "./Practice_set4/Todo";
 import TodoItems from "./Practice_set4/TodoItems";
+import MyBook from "./Practice_set4/MyBook";
 
 
 const todoItems = [
-  {id: 1, task: "Writing 1-page poem", isDone: true},
+  {id: 1, task: "Writing 1-page poem", isDone: false},
   {id: 2, task: "Gym", isDone: false},
   {id: 3, task: "Shopping", isDone: false},
-  {id: 4, task: "Standup call", isDone: true},
+  {id: 4, task: "Standup call", isDone: false},
 ]
 
 function App() {
@@ -54,7 +55,8 @@ function App() {
             {/* <Welcome/> */}
             {/* <Basket/> */}
             {/* <Todo todoItems = {todoItems}/> */}
-            <TodoItems todoItems = {todoItems}/>
+            {/* <TodoItems todoItems = {todoItems}/> */}
+            <MyBook/>
       {/* Set 4 start */}
     </div>
   );
