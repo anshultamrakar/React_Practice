@@ -13,6 +13,9 @@ import Todo from "./Practice_set4/Todo";
 import TodoItems from "./Practice_set4/TodoItems";
 import MyBook from "./Practice_set4/MyBook";
 import Game from "./Practice_set4/Game";
+import CartoonCharacter from "./Practice_set3/CartoonCharacter";
+import CartoonCharacter2 from "./Practice_set3/CartoonCharacter2";
+import CartoonCharacter3 from "./Practice_set3/CartoonCharacter3";
 
 
 const todoItems = [
@@ -21,6 +24,40 @@ const todoItems = [
   {id: 3, task: "Shopping", isDone: false},
   {id: 4, task: "Standup call", isDone: false},
 ]
+
+const cartoons = [
+  {
+      id: 1,
+      name: 'Mickey Mouse',
+      superpower: 'Invisibility',
+      magnitude: 1
+    },
+    {
+      id: 2,
+      name: 'Spongebob Squarepants',
+      superpower: 'Super Strength',
+      magnitude: 3
+    },
+    {
+      id: 3,
+      name: 'Bugs Bunny',
+      superpower: 'Teleportation',
+      magnitude: 9
+    },
+    {
+      id: 4,
+      name: 'Tom and Jerry',
+      superpower: 'Intelligence',
+      magnitude: 8
+    },
+    {
+      id: 5,
+      name: 'The Powerpuff Girls',
+      superpower: 'Flight',
+      magnitude: 10
+    }
+  ]
+
 
 function App() {
   return (
@@ -50,6 +87,13 @@ function App() {
       {/* Ques 4 */}
 
 
+        {/* Set 3 start */}
+         {/* <CartoonCharacter/> */}
+         {/* <CartoonCharacter2 cartoons = {cartoons} /> */}
+          <CartoonCharacter3 cartoons = {cartoons} />
+        
+        {/* Set 3 end */}
+
 
       {/* Set 4 start */}
             {/* <Tab/> */}
@@ -58,8 +102,10 @@ function App() {
             {/* <Todo todoItems = {todoItems}/> */}
             {/* <TodoItems todoItems = {todoItems}/> */}
             {/* <MyBook/> */}
-            <Game/>
+            {/* <Game/> */}
       {/* Set 4 start */}
+
+    
     </div>
   );
 }
