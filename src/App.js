@@ -12,6 +12,7 @@ import Basket from "./Practice_set4/Basket";
 import Todo from "./Practice_set4/Todo";
 import TodoItems from "./Practice_set4/TodoItems";
 import MyBook from "./Practice_set4/MyBook";
+import Game from "./Practice_set4/Game";
 
 
 const todoItems = [
@@ -56,7 +57,8 @@ function App() {
             {/* <Basket/> */}
             {/* <Todo todoItems = {todoItems}/> */}
             {/* <TodoItems todoItems = {todoItems}/> */}
-            <MyBook/>
+            {/* <MyBook/> */}
+            <Game/>
       {/* Set 4 start */}
     </div>
   );

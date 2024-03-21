@@ -19,8 +19,18 @@ const MyBook = () => {
     }
 
     const getClassic = () => {
-     const filterList = filteredBooks.filter(item => item.genre === "Classic")
+     const filterList = books.filter(item => item.genre === "Classic")
      setFilteredBooks(filterList)
+    }
+
+    const getDystopian = () => {
+        const newData = books.filter(item => item.genre === "Dystopian")
+        setFilteredBooks(newData)
+    }
+
+    const getYoungAdult = () => {
+        const newData = books.filter(item => item.genre === "Young Adult")
+        setFilteredBooks(newData)
     }
 
 
@@ -30,8 +40,8 @@ const MyBook = () => {
             <div>
             <button onClick={getAll}>All Genre</button>
             <button onClick={getClassic}>Classic</button>
-            {/* <button onClick={getDystopian}>Dystopian</button>
-            <button onClick={getYoungAdult}>Young Adult</button> */}
+             <button onClick={getDystopian}>Dystopian</button>
+             <button onClick={getYoungAdult}>Young Adult</button>
             </div>
             <div>
                 {filteredBooks.map(book => (
