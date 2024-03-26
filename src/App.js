@@ -16,6 +16,13 @@ import Game from "./Practice_set4/Game";
 import CartoonCharacter from "./Practice_set3/CartoonCharacter";
 import CartoonCharacter2 from "./Practice_set3/CartoonCharacter2";
 import CartoonCharacter3 from "./Practice_set3/CartoonCharacter3";
+import ImageComponent from "./Practice_set3/ImageComponent ";
+import Vegetables from "./Practice_set3/Vegetables";
+import Bouquet from "./Practice_set3/Bouquet";
+import Bouquet2 from "./Practice_set3/Bouquet2";
+import DonationAmount from "./Practice_set3/DonationAmount";
+import StudentDataComponent from "./Practice_set3/StudentDataComponent";
+import CarList from "./Practice_set3/CarList";
 
 
 const todoItems = [
@@ -90,8 +97,14 @@ function App() {
         {/* Set 3 start */}
          {/* <CartoonCharacter/> */}
          {/* <CartoonCharacter2 cartoons = {cartoons} /> */}
-          <CartoonCharacter3 cartoons = {cartoons} />
-        
+          {/* <CartoonCharacter3 cartoons = {cartoons} /> */}
+          {/* <ImageComponent width = {"95px"}  height = {"60px"} image = {"https://picsum.photos/200"}/> */}
+          {/* <Vegetables/> */}
+          {/* <Bouquet/> */}
+          {/* <Bouquet2/> */}
+           {/* <DonationAmount/>  */}
+          <CarList/>
+          {/* <StudentDataComponent/> */}
         {/* Set 3 end */}
 
 
