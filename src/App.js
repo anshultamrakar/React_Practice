@@ -25,6 +25,7 @@ import StudentDataComponent from "./Practice_set3/StudentDataComponent";
 import CarList from "./Practice_set3/CarList";
 import OnlineUsers from "./Practice_set5/OnlineUsers";
 import Products from "./Practice_set5/Products";
+import UserProfile2 from "./Practice_set5/UserProfile";
 
 
 const todoItems = [
@@ -121,7 +122,7 @@ function App() {
       {/* Set 4 start */}
         {/* <OnlineUsers/> */}
         {/* <Products/> */}
-        <UserProfile/>
+        <UserProfile2/>
 
        {/* set 5 start  */}
      
