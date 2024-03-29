@@ -25,6 +25,9 @@ import StudentDataComponent from "./Practice_set3/StudentDataComponent";
 import CarList from "./Practice_set3/CarList";
 import OnlineUsers from "./Practice_set5/OnlineUsers";
 import Products from "./Practice_set5/Products";
+import UserProfile2 from "./Practice_set5/UserProfile";
+import UserFeed from "./Practice_set5/UserFeed";
+import ChatData from "./Practice_set5/ChatData";
 
 
 const todoItems = [
@@ -119,13 +122,14 @@ function App() {
             {/* <MyBook/> */}
             {/* <Game/> */}
       {/* Set 4 start */}
-        {/* <OnlineUsers/> */}
-        {/* <Products/> */}
-        <UserProfile/>
+        
 
        {/* set 5 start  */}
-     
-
+        {/* <OnlineUsers/> */}
+        {/* <Products/> */}
+         {/* <UserProfile2/>  */}
+         {/* <UserFeed/> */}
+         <ChatData/>
         {/* set 5 start  */}
 
     
