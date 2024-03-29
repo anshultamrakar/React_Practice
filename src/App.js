@@ -26,8 +26,11 @@ import CarList from "./Practice_set3/CarList";
 import OnlineUsers from "./Practice_set5/OnlineUsers";
 import Products from "./Practice_set5/Products";
 import UserProfile2 from "./Practice_set5/UserProfile";
+<<<<<<< HEAD
 import UserFeed from "./Practice_set5/UserFeed";
 import ChatData from "./Practice_set5/ChatData";
+=======
+>>>>>>> b691d1d5e16fd83d4651bf5c882e642e7f671367
 
 
 const todoItems = [
@@ -122,7 +125,13 @@ function App() {
             {/* <MyBook/> */}
             {/* <Game/> */}
       {/* Set 4 start */}
+<<<<<<< HEAD
         
+=======
+        {/* <OnlineUsers/> */}
+        {/* <Products/> */}
+        <UserProfile2/>
+>>>>>>> b691d1d5e16fd83d4651bf5c882e642e7f671367
 
        {/* set 5 start  */}
         {/* <OnlineUsers/> */}
