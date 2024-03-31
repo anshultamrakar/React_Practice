@@ -14,6 +14,7 @@ const ChatData = () => {
         const response = await fakeFetch("https://example.com/api/userchat")
         if(response.status === 200){
             setChats(response.data)
+            setIsLoading(false)
         }
 
      }catch(err){
@@ -26,8 +27,11 @@ const ChatData = () => {
         {chats.map(chat => (
             <div>
                 <h3>{chat.name}'s chat</h3>
-                 <p></p>
-
+                {chat.messages.map(chatting => (
+                    <ul>
+                    <li>{chatting.from} : {chatting.message}</li>
+                    </ul>
+                ))}
             </div>
         ))}
         </div>
