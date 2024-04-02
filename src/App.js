@@ -31,6 +31,7 @@ import Comments from "./Practice_set5/Comments";
 import TrekkingBag from "./Practice_set6/TrekkingBag";
 import TodoList from "./Practice_set6/TodoList";
 import HabitTracker from "./Practice_set6/HabitTracker";
+import SocialMedia from "./Practice_set6/SocialMedia";
 
 
 const todoItems = [
@@ -144,6 +145,7 @@ function App() {
         {/* <TrekkingBag/> */}
         {/* <TodoList/> */}
         {/* <HabitTracker/> */}
+        <SocialMedia/>
       {/* Set  6 start  */}
     
     </div>
