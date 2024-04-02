@@ -26,6 +26,11 @@ import CarList from "./Practice_set3/CarList";
 import OnlineUsers from "./Practice_set5/OnlineUsers";
 import Products from "./Practice_set5/Products";
 import UserProfile2 from "./Practice_set5/UserProfile";
+import ChatData from "./Practice_set5/ChatData";
+import Comments from "./Practice_set5/Comments";
+import TrekkingBag from "./Practice_set6/TrekkingBag";
+import TodoList from "./Practice_set6/TodoList";
+import HabitTracker from "./Practice_set6/HabitTracker";
 
 
 const todoItems = [
@@ -119,6 +124,7 @@ function App() {
             {/* <TodoItems todoItems = {todoItems}/> */}
             {/* <MyBook/> */}
             {/* <Game/> */}
+
       {/* Set 4 start */}
         {/* <OnlineUsers/> */}
         {/* <Products/> */}
@@ -130,8 +136,15 @@ function App() {
          {/* <UserProfile2/>  */}
          {/* <UserFeed/> */}
          {/* <ChatData/> */}
+         {/* <Comments/> */}
         {/* set 5 start  */}
 
+
+      {/* Set  6 start  */}
+        {/* <TrekkingBag/> */}
+        {/* <TodoList/> */}
+        {/* <HabitTracker/> */}
+      {/* Set  6 start  */}
     
     </div>
   );
