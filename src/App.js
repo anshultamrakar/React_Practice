@@ -129,7 +129,7 @@ function App() {
         {/* <Products/> */}
          {/* <UserProfile2/>  */}
          {/* <UserFeed/> */}
-         <ChatData/>
+         {/* <ChatData/> */}
         {/* set 5 start  */}
 
     

@@ -19,7 +19,7 @@ const UserProfile2 = () => {
     return(
         <div>
           <h2>Name : {userProfile.name}</h2>
-          <img src = {`${userProfile.image}`}/>
+           <img src = {`${userProfile.image}`}/>
           <p>Like : {userProfile.likes}</p>
           <p>Comment : {userProfile.comments}</p>
         </div>
