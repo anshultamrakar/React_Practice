@@ -31,7 +31,9 @@ import Comments from "./Practice_set5/Comments";
 import TrekkingBag from "./Practice_set6/TrekkingBag";
 import TodoList from "./Practice_set6/TodoList";
 import HabitTracker from "./Practice_set6/HabitTracker";
+import SocialMedia from "./Practice_set6/SocialMedia";
 import VideoLibrary from "./Practice_set6/VideoLibrary";
+import HabbitTracker2 from "./Practice_set6/HabbitTracker2";
 
 
 const todoItems = [
@@ -145,7 +147,10 @@ function App() {
         {/* <TrekkingBag/> */}
         {/* <TodoList/> */}
         {/* <HabitTracker/> */}
-        <VideoLibrary/>
+         {/* <VideoLibrary/>   */}
+         {/* <SocialMedia/> */}
+        {/* <SocialMedia/> */}
+        <HabbitTracker2/>
       {/* Set  6 start  */}
     
     </div>
