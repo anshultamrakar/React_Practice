@@ -36,6 +36,7 @@ import VideoLibrary from "./Practice_set6/VideoLibrary";
 import HabbitTracker2 from "./Practice_set6/HabbitTracker2";
 import Projects from "./Practice_set6/Projects";
 import WheatherData from "./Practice_set7/WheatherData";
+import UserData from "./Practice_set7/UserData";
 
 
 const todoItems = [
@@ -158,7 +159,8 @@ function App() {
 
       {/* Set 7 start */}
        
-      <WheatherData/>
+      {/* <WheatherData/> */}
+      <UserData/>
       {/* Set 7 ends */}
 
     
