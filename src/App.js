@@ -35,6 +35,7 @@ import SocialMedia from "./Practice_set6/SocialMedia";
 import VideoLibrary from "./Practice_set6/VideoLibrary";
 import HabbitTracker2 from "./Practice_set6/HabbitTracker2";
 import Projects from "./Practice_set6/Projects";
+import WheatherData from "./Practice_set7/WheatherData";
 
 
 const todoItems = [
@@ -152,8 +153,14 @@ function App() {
          {/* <SocialMedia/> */}
         {/* <SocialMedia/> */}
         {/* <HabbitTracker2/> */}
-        <Projects/>
+        {/* <Projects/> */}
       {/* Set  6 start  */}
+
+      {/* Set 7 start */}
+       
+      <WheatherData/>
+      {/* Set 7 ends */}
+
     
     </div>
   );
