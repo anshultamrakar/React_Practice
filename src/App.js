@@ -160,7 +160,7 @@ function App() {
       {/* Set 7 start */}
        
       {/* <WheatherData/> */}
-      <UserData/>
+      {/* <UserData/> */}
       {/* Set 7 ends */}
 
     
