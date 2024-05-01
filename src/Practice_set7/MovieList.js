@@ -4,9 +4,11 @@ import { fakeFetch } from './FakeFetch'
 
 const MovieList = () => {
     const [movieData , setMovieData] = useState([])
+    const [filterResult , setFilterResult] = useState([])
     const [selectedYear , setSelectedYear] = useState("All")
     const [isLoader, setIsLoader] = useState(true)
     
+
     useEffect(() => {
         getdata()
     },[])
@@ -24,6 +26,8 @@ const MovieList = () => {
     }
 
     
+  const filterResults = selectedYear === "All" ? movieData : movieData.filter(movie => movie.year == selectedYear)
+
   return (
     <div>
       {isLoader ? <p>Loading....</p> : 
@@ -31,7 +35,7 @@ const MovieList = () => {
       <h2>Movie List</h2>
        <label htmlFor="year">Filter by Year:</label>
       <select name="year" id="year" value = {selectedYear} onChange={(e) => setSelectedYear(e.target.value)}>
-        <option value="">All</option>
+        <option value="All">All</option>
         <option value = "2005">2005</option>
         <option value = "2006">2006</option>
         <option value = "2007">2007</option>
@@ -40,7 +44,7 @@ const MovieList = () => {
         <option value = "2010">2010</option>
       </select>
         <ul>
-          {movieData.map((movie, index) => (
+          {filterResults.map((movie, index) => (
             <li key = {index}>
               <p>Name : {movie?.title}</p>
               <p>Year : {movie?.year}</p>

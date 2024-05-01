@@ -38,6 +38,7 @@ import Projects from "./Practice_set6/Projects";
 import WheatherData from "./Practice_set7/WheatherData";
 import UserData from "./Practice_set7/UserData";
 import MovieList from "./Practice_set7/MovieList";
+import UserList from "./Practice_set7/UserList";
 
 
 const todoItems = [
@@ -162,7 +163,8 @@ function App() {
        
       {/* <WheatherData/> */}
       {/* <UserData/> */}
-      <MovieList/>
+      {/* <MovieList/> */}
+       <UserList/>
       {/* Set 7 ends */}
 
     

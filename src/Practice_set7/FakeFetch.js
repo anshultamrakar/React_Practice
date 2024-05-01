@@ -52,25 +52,75 @@
   // }
 
 
+  // export const fakeFetch = (url) => {
+  //   return new Promise((resolve, reject) => {
+  //     setTimeout(() => {
+  //       if (url === 'https://example.com/api/movies') {
+  //         resolve({
+  //           status: 200,
+  //           message: 'Success',
+  //           data: [
+  //             { title: 'The Dark Knight', year: 2008, rating: 9.0 },
+  //             { title: 'Inception', year: 2009, rating: 8.8 },
+  //             { title: 'Interstellar', year: 2010, rating: 8.6 },
+  //             { title: 'Tenet', year: 2009, rating: 7.5 },
+  //             { title: 'Real Steal', year: 2007, rating: 7.5 },
+  //           ],
+  //         })
+  //       } else {
+  //         reject({
+  //           status: 404,
+  //           message: 'Movies list not found.',
+  //         })
+  //       }
+  //     }, 2000)
+  //   })
+  // }
+
   export const fakeFetch = (url) => {
     return new Promise((resolve, reject) => {
       setTimeout(() => {
-        if (url === 'https://example.com/api/movies') {
+        if (url === 'https://example.com/api/users') {
           resolve({
             status: 200,
             message: 'Success',
             data: [
-              { title: 'The Dark Knight', year: 2008, rating: 9.0 },
-              { title: 'Inception', year: 2009, rating: 8.8 },
-              { title: 'Interstellar', year: 2010, rating: 8.6 },
-              { title: 'Tenet', year: 2009, rating: 7.5 },
-              { title: 'Real Steal', year: 2007, rating: 7.5 },
+              {
+                name: 'John Doe',
+                email: 'john@example.com',
+                website: 'example.com',
+                company: 'ABC Inc',
+              },
+              {
+                name: 'Jane Doe',
+                email: 'jane@example.com',
+                website: 'example.com',
+                company: 'XYZ Corp',
+              },
+              {
+                name: 'Bob Smith',
+                email: 'bob@example.com',
+                website: 'example.com',
+                company: 'ABC Inc',
+              },
+              {
+                name: 'Alice Brown',
+                email: 'alice@example.com',
+                website: 'example.com',
+                company: 'ACME Corp',
+              },
+              {
+                name: 'Charlie Green',
+                email: 'charlie@example.com',
+                website: 'example.com',
+                company: 'XYZ Corp',
+              },
             ],
           })
         } else {
           reject({
             status: 404,
-            message: 'Movies list not found.',
+            message: 'Users list not found.',
           })
         }
       }, 2000)
