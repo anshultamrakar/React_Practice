@@ -39,6 +39,8 @@ import WheatherData from "./Practice_set7/WheatherData";
 import UserData from "./Practice_set7/UserData";
 import MovieList from "./Practice_set7/MovieList";
 import UserList from "./Practice_set7/UserList";
+import RandomQuote from "./Practice_set7/RandomQuote";
+import MyNewMovies from "./Practice_set7/MyNewMovies";
 
 
 const todoItems = [
@@ -164,7 +166,9 @@ function App() {
       {/* <WheatherData/> */}
       {/* <UserData/> */}
       {/* <MovieList/> */}
-       <UserList/>
+       {/* <UserList/> */}
+       {/* <RandomQuote/> */}
+       <MyNewMovies/>
       {/* Set 7 ends */}
 
     
