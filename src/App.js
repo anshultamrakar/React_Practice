@@ -41,6 +41,7 @@ import MovieList from "./Practice_set7/MovieList";
 import UserList from "./Practice_set7/UserList";
 import RandomQuote from "./Practice_set7/RandomQuote";
 import MyNewMovies from "./Practice_set7/MyNewMovies";
+import ProductList from "./Practice_set7/ProductList";
 
 
 const todoItems = [
@@ -168,7 +169,8 @@ function App() {
       {/* <MovieList/> */}
        {/* <UserList/> */}
        {/* <RandomQuote/> */}
-       <MyNewMovies/>
+       {/* <MyNewMovies/> */}
+       <ProductList/>
       {/* Set 7 ends */}
 
     
