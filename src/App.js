@@ -43,6 +43,7 @@ import RandomQuote from "./Practice_set7/RandomQuote";
 import MyNewMovies from "./Practice_set7/MyNewMovies";
 import ProductList from "./Practice_set7/ProductList";
 import ProductList2 from "./Practice_set7/ProductList2";
+import ProductData from "./Practice_set7/ProductData";
 
 
 const todoItems = [
@@ -172,7 +173,8 @@ function App() {
        {/* <RandomQuote/> */}
        {/* <MyNewMovies/> */}
        {/* <ProductList/> */}
-       <ProductList2/>
+       {/* <ProductList2/> */}
+       <ProductData/>
       {/* Set 7 ends */}
 
     

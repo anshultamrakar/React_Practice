@@ -233,6 +233,53 @@
   // }
 
 
+  // export const fakeFetch = (url) => {
+  //   return new Promise((resolve, reject) => {
+  //     setTimeout(() => {
+  //       if (url === 'https://example.com/api/products') {
+  //         resolve({
+  //           status: 200,
+  //           message: 'Success',
+  //           data: {
+  //             products: [
+  //               {
+  //                 name: 'Product 1',
+  //                 description: 'This is the first product',
+  //                 price: 25.99,
+  //                 quantity: 10,
+  //               },
+  //               {
+  //                 name: 'Product 2',
+  //                 description: 'This is the second product',
+  //                 price: 19.99,
+  //                 quantity: 15,
+  //               },
+  //               {
+  //                 name: 'Product 3',
+  //                 description: 'This is the third product',
+  //                 price: 35.5,
+  //                 quantity: 5,
+  //               },
+  //               {
+  //                 name: 'Product 4',
+  //                 description: 'This is the fourth product',
+  //                 price: 49.99,
+  //                 quantity: 20,
+  //               },
+  //             ],
+  //           },
+  //         })
+  //       } else {
+  //         reject({
+  //           status: 404,
+  //           message: 'Product list not found.',
+  //         })
+  //       }
+  //     }, 2000)
+  //   })
+  // }
+
+
   export const fakeFetch = (url) => {
     return new Promise((resolve, reject) => {
       setTimeout(() => {
@@ -242,30 +289,10 @@
             message: 'Success',
             data: {
               products: [
-                {
-                  name: 'Product 1',
-                  description: 'This is the first product',
-                  price: 25.99,
-                  quantity: 10,
-                },
-                {
-                  name: 'Product 2',
-                  description: 'This is the second product',
-                  price: 19.99,
-                  quantity: 15,
-                },
-                {
-                  name: 'Product 3',
-                  description: 'This is the third product',
-                  price: 35.5,
-                  quantity: 5,
-                },
-                {
-                  name: 'Product 4',
-                  description: 'This is the fourth product',
-                  price: 49.99,
-                  quantity: 20,
-                },
+                { name: 'Color Pencils', price: 50, quantity: 40, rating: 4.5 },
+                { name: 'Sketchpens', price: 110, quantity: 20, rating: 3.8 },
+                { name: 'Eraser', price: 20, quantity: 20, rating: 4.2 },
+                { name: 'Sharpener', price: 22, quantity: 30, rating: 4.7 },
               ],
             },
           })
