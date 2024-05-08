@@ -19,7 +19,7 @@ const ProductData = () => {
       const response = await fakeFetch("https://example.com/api/products")
       if(response.status === 200){
        setProductData(response.data.products)
-       setSortData(response?.data?.products.sort((a,b) => a.quantity - b.quantity))
+       setSortData(response?.data?.products.sort((a,b) => b.rating - a.rating))
        setIsLoader(false)
       }
       }catch(err){

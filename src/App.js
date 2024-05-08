@@ -44,6 +44,7 @@ import MyNewMovies from "./Practice_set7/MyNewMovies";
 import ProductList from "./Practice_set7/ProductList";
 import ProductList2 from "./Practice_set7/ProductList2";
 import ProductData from "./Practice_set7/ProductData";
+import CartManagement from "./Practice_set10/CartManagement";
 
 
 const todoItems = [
@@ -174,9 +175,13 @@ function App() {
        {/* <MyNewMovies/> */}
        {/* <ProductList/> */}
        {/* <ProductList2/> */}
-       <ProductData/>
+       {/* <ProductData/> */}
       {/* Set 7 ends */}
 
+       {/* Set 10 start */}
+       <CartManagement/>
+
+        {/* Set 10 end */}
     
     </div>
   );
