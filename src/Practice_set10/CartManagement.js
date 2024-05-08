@@ -1,23 +1,26 @@
-import { useReducer, useState } from "react"
-import {productData} from "./CartData"
+
+import { useContext } from "react"
+import { MyCartContext } from "./Context/CartContext"
 
 const CartManagement = () => {
-    function cartReducer(state , action){
-        switch(action.type){
-            case "increment qty": 
-          console.log("hello")
-        }
-    }
-    const [state , dispatch] = useReducer(cartReducer , {cart : productData})
-     
+    const {state , dispatch} = useContext(MyCartContext)
     return(
         <div>
             <h2>Cart Management</h2>
             <ul>
                 {state.cart.map(item => (
-                    <li>
-                        <p>{item.name}</p>
+                    <>
+                      <li>
+                        <p>Product Name : {item?.name}</p>
+                        <p>Price INR : {item?.price}</p>
                     </li>
+                    <div>
+                    <button onClick={() => dispatch({type : "increment qty" , payload : item})}>+</button>
+                    <p>Quantity : {item?.quantity}</p>
+                    <button onClick={() => dispatch({type : "decrement qty" , payload : item})}>-</button>
+                    </div>
+                    <button onClick={() => dispatch({type : "remove" , payload : item})}>Remove</button>
+                    </>
                 ))}
             </ul>
         </div>

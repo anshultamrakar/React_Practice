@@ -1,5 +1,6 @@
 import UserProvider from "./Practice_set11/Context/UserContext"
 import LanguageProvider from "./Practice_set11/Context/LanguageContext"
+import MyCartProvider from "./Practice_set10/Context/CartContext"
 import Translate from "./Practice_set11/Componets/Translate";
 import UserProfile  from "./Practice_set11/Componets/UserProfile"
 import ThemeProvider from "./Practice_set11/Context/ThemeContext ";
@@ -179,8 +180,9 @@ function App() {
       {/* Set 7 ends */}
 
        {/* Set 10 start */}
-       <CartManagement/>
-
+        <MyCartProvider>
+         <CartManagement/>
+        </MyCartProvider> 
         {/* Set 10 end */}
     
     </div>
