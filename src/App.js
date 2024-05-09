@@ -46,6 +46,7 @@ import ProductList from "./Practice_set7/ProductList";
 import ProductList2 from "./Practice_set7/ProductList2";
 import ProductData from "./Practice_set7/ProductData";
 import CartManagement from "./Practice_set10/CartManagement";
+import WishList from "./Practice_set10/WishList";
 
 
 const todoItems = [
@@ -181,6 +182,7 @@ function App() {
 
        {/* Set 10 start */}
         <MyCartProvider>
+          <WishList/>
          <CartManagement/>
         </MyCartProvider> 
         {/* Set 10 end */}

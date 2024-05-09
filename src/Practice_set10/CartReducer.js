@@ -7,6 +7,7 @@ export function cartReducer(state , action){
          return {...state , cart : state.cart.map(item => item.id === action.payload.id ? {...item , "quantity" : action.payload.quantity - 1 } : item)}
         case "remove" :
             return {...state , cart : state.cart.filter(item => item.id !== action.payload.id)}
+        case "move_to_wishlist":
          default : 
       return state
     }

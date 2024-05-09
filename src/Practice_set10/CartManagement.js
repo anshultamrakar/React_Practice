@@ -20,6 +20,7 @@ const CartManagement = () => {
                     <button onClick={() => dispatch({type : "decrement qty" , payload : item})}>-</button>
                     </div>
                     <button onClick={() => dispatch({type : "remove" , payload : item})}>Remove</button>
+                    <button onClick={() => dispatch({type : "move_to_wishlist" , payload : item})}>Move to Wish list</button>
                     </>
                 ))}
             </ul>
