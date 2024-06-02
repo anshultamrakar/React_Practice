@@ -1,5 +1,6 @@
 import UserProvider from "./Practice_set11/Context/UserContext"
 import LanguageProvider from "./Practice_set11/Context/LanguageContext"
+import MyCartProvider from "./Practice_set10/Context/CartContext"
 import Translate from "./Practice_set11/Componets/Translate";
 import UserProfile  from "./Practice_set11/Componets/UserProfile"
 import ThemeProvider from "./Practice_set11/Context/ThemeContext ";
@@ -44,6 +45,8 @@ import MyNewMovies from "./Practice_set7/MyNewMovies";
 import ProductList from "./Practice_set7/ProductList";
 import ProductList2 from "./Practice_set7/ProductList2";
 import ProductData from "./Practice_set7/ProductData";
+import CartManagement from "./Practice_set10/CartManagement";
+import WishList from "./Practice_set10/WishList";
 
 
 const todoItems = [
@@ -174,9 +177,15 @@ function App() {
        {/* <MyNewMovies/> */}
        {/* <ProductList/> */}
        {/* <ProductList2/> */}
-       <ProductData/>
+       {/* <ProductData/> */}
       {/* Set 7 ends */}
 
+       {/* Set 10 start */}
+        <MyCartProvider>
+          <WishList/>
+         <CartManagement/>
+        </MyCartProvider> 
+        {/* Set 10 end */}
     
     </div>
   );
