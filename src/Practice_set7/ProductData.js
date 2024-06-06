@@ -28,7 +28,7 @@ const ProductData = () => {
       }
     }
 
-    const filterItems = 
+   
 
   return (
     <div>
