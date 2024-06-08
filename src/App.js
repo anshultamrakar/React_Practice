@@ -45,6 +45,7 @@ import MyNewMovies from "./Practice_set7/MyNewMovies";
 import ProductList from "./Practice_set7/ProductList";
 import ProductList2 from "./Practice_set7/ProductList2";
 import ProductData from "./Practice_set7/ProductData";
+import PhotoGall from "./Tailwind/PhotoGall";
 // import CartManagement from "./Practice_set10/CartManagement";
 // import WishList from "./Practice_set10/WishList";
 
@@ -178,6 +179,8 @@ function App() {
        {/* <ProductList/> */}
        {/* <ProductList2/> */}
        {/* <ProductData/> */}
+        <PhotoGall/>
+
       {/* Set 7 ends */}
 
        {/* Set 10 start */}
