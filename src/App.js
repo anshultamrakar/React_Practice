@@ -45,7 +45,12 @@ import MyNewMovies from "./Practice_set7/MyNewMovies";
 import ProductList from "./Practice_set7/ProductList";
 import ProductList2 from "./Practice_set7/ProductList2";
 import ProductData from "./Practice_set7/ProductData";
+<<<<<<< HEAD
 import PhotoGall from "./Tailwind/PhotoGall";
+=======
+import Demo1 from "./Hooks/Demo1";
+import Demo2 from "./Hooks/Demo2";
+>>>>>>> 2b818e48d3541baa5c588e826ed633e49131c211
 // import CartManagement from "./Practice_set10/CartManagement";
 // import WishList from "./Practice_set10/WishList";
 
@@ -189,7 +194,8 @@ function App() {
          <CartManagement/>
         </MyCartProvider>  */}
         {/* Set 10 end */}
-    
+      {/* <Demo1/> */}
+      {/* <Demo2/> */}
     </div>
   );
 }

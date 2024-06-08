@@ -29,7 +29,6 @@ const ProductData = () => {
     }
 
 
-
   return (
     <div>
         <h2>Product Data</h2>
