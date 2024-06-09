@@ -47,6 +47,8 @@ import ProductList2 from "./Practice_set7/ProductList2";
 import ProductData from "./Practice_set7/ProductData";
 import Demo1 from "./Hooks/Demo1";
 import Demo2 from "./Hooks/Demo2";
+import PhotoGall from "./Tailwind/PhotoGall";
+
 // import CartManagement from "./Practice_set10/CartManagement";
 // import WishList from "./Practice_set10/WishList";
 
@@ -118,8 +120,6 @@ function App() {
         </CartProvider> */}
 
       {/* Ques 4 */}
-
-
         {/* Set 3 start */}
          {/* <CartoonCharacter/> */}
          {/* <CartoonCharacter2 cartoons = {cartoons} /> */}
@@ -132,8 +132,6 @@ function App() {
           {/* <CarList/> */}
           {/* <StudentDataComponent/> */}
         {/* Set 3 end */}
-
-
       {/* Set 4 start */}
             {/* <Tab/> */}
             {/* <Welcome/> */}
@@ -142,12 +140,10 @@ function App() {
             {/* <TodoItems todoItems = {todoItems}/> */}
             {/* <MyBook/> */}
             {/* <Game/> */}
-
       {/* Set 4 start */}
         {/* <OnlineUsers/> */}
         {/* <Products/> */}
         {/* <UserProfile2/> */}
-
        {/* set 5 start  */}
         {/* <OnlineUsers/> */}
         {/* <Products/> */}
@@ -156,7 +152,6 @@ function App() {
          {/* <ChatData/> */}
          {/* <Comments/> */}
         {/* set 5 start  */}
-
 
       {/* Set  6 start  */}
         {/* <TrekkingBag/> */}
@@ -180,7 +175,7 @@ function App() {
        {/* <ProductList/> */}
        {/* <ProductList2/> */}
        {/* <ProductData/> */}
-        <PhotoGall/>
+        {/* <PhotoGall/> */}
 
       {/* Set 7 ends */}
 
@@ -191,7 +186,7 @@ function App() {
         </MyCartProvider>  */}
         {/* Set 10 end */}
       {/* <Demo1/> */}
-      {/* <Demo2/> */}
+       <Demo2/> 
     </div>
   );
 }
