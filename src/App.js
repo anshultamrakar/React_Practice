@@ -49,6 +49,7 @@ import Demo1 from "./Hooks/Demo1";
 import Demo2 from "./Hooks/Demo2";
 import PhotoGall from "./Tailwind/PhotoGall";
 import PricingTable from "./Tailwind/PricingTable";
+import ReviewOrder from "./Tailwind/ReviewOrder";
 
 // import CartManagement from "./Practice_set10/CartManagement";
 // import WishList from "./Practice_set10/WishList";
@@ -188,8 +189,8 @@ function App() {
         {/* Set 10 end */}
       {/* <Demo1/> */}
        {/* <Demo2/>  */}
-
-       <PricingTable/>
+       {/* <PricingTable/> */}
+       <ReviewOrder/>
     </div>
   );
 }
