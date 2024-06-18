@@ -38,6 +38,8 @@ const  itemsInCart =  [
        }
        case "remove_item" : 
        return {...state , itemsInCart : state.itemsInCart.filter(item => item.id !== action.payload)}
+       case "move_to_wishlist" :
+        return {...state , itemsInCart: state.itemsInCart.filter(item => item.id !== action.payload) , itemsInWish : [...state.itemsInWish, state.itemsInCart.find(item => item.id === action.payload) ]}
        default : 
        return state;
     }
@@ -46,7 +48,7 @@ const  itemsInCart =  [
 export const CartContext = createContext(null)
 
 const CartProvider = ({children}) => {
-    const [state, dispatch] = useReducer(cartReducer , {itemsInCart})
+    const [state, dispatch] = useReducer(cartReducer , {itemsInCart , itemsInWish : [] })
   
   return(
     <CartContext.Provider value = {{state , dispatch}}>
