@@ -50,7 +50,8 @@ import Demo2 from "./Hooks/Demo2";
 import PhotoGall from "./Tailwind/PhotoGall";
 import PricingTable from "./Tailwind/PricingTable";
 import ReviewOrder from "./Tailwind/ReviewOrder";
-
+import CounterReducer from "./Hooks/useReducer/CounterReducer";
+import CartManagement from "./Hooks/useReducer/CartManagement";
 // import CartManagement from "./Practice_set10/CartManagement";
 // import WishList from "./Practice_set10/WishList";
 
@@ -178,7 +179,6 @@ function App() {
        {/* <ProductList2/> */}
        {/* <ProductData/> */}
         {/* <PhotoGall/> */}
-
       {/* Set 7 ends */}
 
        {/* Set 10 start */}
@@ -187,10 +187,21 @@ function App() {
          <CartManagement/>
         </MyCartProvider>  */}
         {/* Set 10 end */}
+
+        {/* -------Hooks --------------- */}
       {/* <Demo1/> */}
        {/* <Demo2/>  */}
+
+       {/* ------- Tailwind CSS ----------------- */}
        {/* <PricingTable/> */}
-       <ReviewOrder/>
+       {/* <ReviewOrder/> */}
+
+
+
+       {/* ---------------- Reducers-------------------------- */}
+       {/* <CounterReducer/> */}
+       <CartManagement/>
+       
     </div>
   );
 }
