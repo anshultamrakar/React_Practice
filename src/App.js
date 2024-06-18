@@ -5,7 +5,7 @@ import Translate from "./Practice_set11/Componets/Translate";
 import UserProfile  from "./Practice_set11/Componets/UserProfile"
 import ThemeProvider from "./Practice_set11/Context/ThemeContext ";
 import ThemeSwitcher from "./Practice_set11/Componets/ThemeSwitcher";
-import CartProvider from "./Practice_set11/Context/CartTotalContext";
+import CartProvider from "./Hooks/useReducer/CartContext";
 import CartSummary from "./Practice_set11/Componets/CartSummary";
 import Tab from "./Practice_set4/Tab";
 import Welcome from "./Practice_set4/Welcome";
@@ -200,7 +200,9 @@ function App() {
 
        {/* ---------------- Reducers-------------------------- */}
        {/* <CounterReducer/> */}
-       <CartManagement/>
+       <CartProvider>
+        <CartManagement/>
+       </CartProvider>
        
     </div>
   );
