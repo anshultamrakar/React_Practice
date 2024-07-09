@@ -200,9 +200,11 @@ function App() {
 
        {/* ---------------- Reducers-------------------------- */}
        {/* <CounterReducer/> */}
-       <CartProvider>
+       {/* <CartProvider>
         <CartManagement/>
-       </CartProvider>
+       </CartProvider> */}
+
+       
        
     </div>
   );
